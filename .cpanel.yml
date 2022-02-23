@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=./nodemon.json
+    - export DEPLOYPATH=./pages/index.tsx
     - /bin/cp -R images $DEPLOYPATH
