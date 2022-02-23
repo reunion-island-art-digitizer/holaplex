@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=./pages/index_tsx/
+    - /bin/cp -R images $DEPLOYPATH
